@@ -80,3 +80,21 @@ openssl x509 `
 # Check certificate
 openssl x509 -in certs/passkeys.demo.pem -text -noout
 ```
+
+### Configure Kestrel
+
+Copy the server certificate and key to `/src/DemoPasskeys/cert/` and configure Kestrel to use them.
+
+```json
+{
+  "Kestrel": {
+    "Certificates": {
+      "Default": {
+        "Path": "cert/passkeys.demo.pem",
+        "KeyPath": "cert/passkeys.demo.key",
+        "Password": "AbC1234567"
+      }
+    }
+  }
+}
+```

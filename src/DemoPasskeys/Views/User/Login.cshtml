@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Login";
+
+    var email = ViewData["email"];
+    var password = ViewData["password"];
+    var message = (string?)ViewData["message"];
+    var showMessage = !string.IsNullOrEmpty(message);
+}
+
+<h1>Login</h1>
+
+@if (showMessage)
+{
+    <div>
+        @message
+    </div>
+}
+
+<form method="post" action="~/User/Login">
+    <label for="email">
+        Email Address
+    </label>
+    <input type="email" id="email" name="email" required
+           value="@email" placeholder="email"/>
+    <br/>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required
+           value="@password" placeholder="password"/>
+    <br/>
+
+    <button type="submit">Login</button>
+</form>

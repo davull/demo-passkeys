@@ -1,0 +1,7 @@
+﻿<RunSettings>
+  <RunConfiguration>
+      <EnvironmentVariables>
+          <DATA_DIRECTORY>..\\..\\..\\..\\TestData</DATA_DIRECTORY>
+      </EnvironmentVariables>
+  </RunConfiguration>
+</RunSettings>

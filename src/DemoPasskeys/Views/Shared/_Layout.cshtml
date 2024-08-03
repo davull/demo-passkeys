@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - DemoPasskeys</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="false"/>
+</head>
+<body>
+
+<div>
+    <ul>
+        <li>
+            <a asp-controller="Home" asp-action="Index">Home</a>
+        </li>
+        <li>
+            <a asp-controller="User" asp-action="Login">Login</a>
+        </li>
+        <li>
+            <a asp-controller="User" asp-action="Logout">Logout</a>
+        </li>
+        <li>
+            <a asp-controller="User" asp-action="Profile">Profile</a>
+        </li>
+        <li>
+            <a asp-controller="Passkeys" asp-action="Index">Passkeys</a>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <main role="main">
+        @RenderBody()
+    </main>
+</div>
+
+<script src="~/js/site.js" asp-append-version="false" type="module"></script>
+@await RenderSectionAsync("Scripts", false)
+</body>
+</html>

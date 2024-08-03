@@ -1,0 +1,95 @@
+﻿[
+  {
+    "Name": "Firefox, Fingerprint, Rs256",
+    "CreatePasskeyRequest": {
+      "Id": "Glax2wNWCoQu2zdBlhyUJ20acBI_jxYQlZJBoEbKiYI",
+      "UserId": "QjlDMEQ=",
+      "PublicKey": "MIIBIjANBgkqhkiG9w0BAQsFAAOCAQ8AMIIBCgKCAQEAukxsyY0VCNFVtT/qU2sBSJGeJt4kt+f2o1iXDnDObBh2bOG0UZhtYnFfmwRLCsXLSkq5YQ+dgx5VIPXtKeiX+Vd0FEoIK549CcJgbb+xsdmYtASkaB9flaW9WTQYCiw6fgLwi90xyaCRTau63u5lh5U3cnR4rkcVQ6hu945oF2SYP/o27CcskDo+cPH0xiMedQDM2XHVw/+rTxFlcAwaRMl05fQziV4cqNm0S2VypqUb+i2bVlpUvHeJOmcs/25xGgQgDD68Ntbw3WOCvNPXbUE4TxVzfNdB4RdjvteUm38L/B7nePW/GDAlr/04UYFuJworte38HvI0M8rIL8pASQIDAQAB",
+      "PublicKeyAlgorithm": -257,
+      "Transports": [
+        "internal"
+      ]
+    },
+    "VerifyPasskeyRequest": {
+      "Id": "Glax2wNWCoQu2zdBlhyUJ20acBI_jxYQlZJBoEbKiYI",
+      "AuthenticatorData": "uzLHnR90LeW8TN7lyKDreFnTIik5+rK0UAv28GHbsWcFAAAAAQ==",
+      "ClientDataJson": "{\"challenge\":\"FG0L5rHD35Qb4b6YQNvklqctgtR_uiyGlYNQhehLM4c\",\"origin\":\"https://passkeys.demo:7011\",\"type\":\"webauthn.get\"}",
+      "Signature": "dcHTqYPioz5KLPFRw3/0Yk4FgH0Bfg01GNns4AWW46k+SlqIm3Dq8gX9xoe3H+R0msp53f6tXziYdulcV5KIRCc4B6XhYoCRzAGvNLJuByGrIqc3M3Jim8TTb126JL6VTjqJcbRMxq8JAA9xOaN3iYl6l4BurDgYrK+FlFXpxxALSvITRFbM1KLXwqcw2b2iIjkrvpMpr1/R3HWAbf6ayJE3tFSksjIxhRWKzu9XyCFDRpxwsl/ROX4LevIqS3rk7KzNaVc7zeCVQunrZPOd53/w4Z5g88AkAdEApNgsy6HYPCIhPV/J1p/Fx6T6J7RMViEjE8zU5LPas6iK+384/w==",
+      "UserHandle": "QjlDMEQ="
+    }
+  },
+  {
+    "Name": "Edge, PIN, Rs256",
+    "CreatePasskeyRequest": {
+      "Id": "wFg46XT7KQB30SOzcOnaHhKuLeQxwMpyYuntJyGdUWM",
+      "UserId": "QjlDMEQ=",
+      "PublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1VRLgDokfAE9COeNkKMLi6BiUWpfh9jkgnmSoWcnFhGj5o01Ini8YEIlK6K3XErGCA6IVkcCDkyTFXwbPBC7oAMOnTK22X4jbGFRWGCW7vfQksJv/EUYLswKGsJp2nProEZPBNoQTNdMPmDmZUx6PQsNlqAl/TwfpqcQWxiToVpJU8CT5boDn1VSNgihPlbL9GpYxxfMF2nvFAH3+4sF3Csoxo/H0MYkHWZzGFbBHU6iweOA17qVaC9F6ak9g5GZBOdv9LMvR/A2TGCyP9kdVPmh4ZZbthB5ujMhlaL6KQKiUBdwd9WKRjQns/T1nrPFff4jkgm6lsiNH0N+4G48twIDAQAB",
+      "PublicKeyAlgorithm": -257,
+      "Transports": [
+        "internal"
+      ]
+    },
+    "VerifyPasskeyRequest": {
+      "Id": "wFg46XT7KQB30SOzcOnaHhKuLeQxwMpyYuntJyGdUWM",
+      "AuthenticatorData": "uzLHnR90LeW8TN7lyKDreFnTIik5+rK0UAv28GHbsWcFAAAAAQ==",
+      "ClientDataJson": "{\"type\":\"webauthn.get\",\"challenge\":\"_hDeKIJS9wY62QbItY2XRdYCyptSA1YSFdpmAkMYC-8\",\"origin\":\"https://passkeys.demo:7011\",\"crossOrigin\":false}",
+      "Signature": "D6oPob5DssrYKPSgmI5yCmvenaEUdmg/IXNbad/xeoiQRCMyz7f4EE8XghDRxKCFHXEanTt4af8xPthLZHmt60r8tCfWC4VWSseFx4H7SDkhvkSDfY4uT2ZEEvn1zvQudgXWiSQ5QvUvI+S+qJBaRninJ0B3IFZxgUH+4L9B/m+X3unIxL8FW+99KgytkdPSY4FPZoEgYDVWR0BRjcTfBkJlFrcZcvpo2iyejORiwz+9nHM4Vp3wUOfD52em0ojdkeQm2oOFgHFJNsq55Ed40oOAQICx13neWiC3f0lIIsAPt6OVF87f8VQXtKO0y+6+e8i54rtXEjZKtyGSOVWQFw==",
+      "UserHandle": "QjlDMEQ="
+    }
+  },
+  {
+    "Name": "Chrome, Fingerprint, Rs256",
+    "CreatePasskeyRequest": {
+      "Id": "VT__QQRdZKjGmpLkKPV49IYfq8yL9iQbK9A1YC1u__Y",
+      "UserId": "QjlDMEQ=",
+      "PublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAua9wfFtzsGA9Q5am5AtSN93pAOOo8lOWuudq9tUUPXH1k7+W1Og26zCdd3PyKqvn1FwMwyuFT/2kHh962LZ5Ff3y0ok7fI9fdZHFXqk/Iqb1C+Na+C/oyJeQu7oUhC4wzI3Ak0EUbXno8LhBg+cNZpWmV0mdoEJurW52Mp79T3dBukRmczkElMvinkIvOZqR1qYFPkhvzM/jqqkZE+5LjPcFcHZvV2AepDor2tkjIdUVlIrP+VuCm+BxPKMFWWbbvkFMZJRF9JygfwiSkKmWHeg5RaCAVIIIpvvONZZ6i45F13k/XYUAOPO91zRBX31cesQQLaAmFawMeSfAGQL1uQIDAQAB",
+      "PublicKeyAlgorithm": -257,
+      "Transports": [
+        "internal"
+      ]
+    },
+    "VerifyPasskeyRequest": {
+      "Id": "VT__QQRdZKjGmpLkKPV49IYfq8yL9iQbK9A1YC1u__Y",
+      "AuthenticatorData": "uzLHnR90LeW8TN7lyKDreFnTIik5+rK0UAv28GHbsWcFAAAAAQ==",
+      "ClientDataJson": "{\"type\":\"webauthn.get\",\"challenge\":\"QwWzNVtOgN5wSvt3RoAW53Q0mdIScAgTC0qG57j3pOs\",\"origin\":\"https://passkeys.demo:7011\",\"crossOrigin\":false}",
+      "Signature": "XO4SJIdJoXAbubS1QENa0gHVbFgJFfgt1TTr+81uNv1+dUwu0DoawXGS2nBVFVQA5NJnljz94PHtTRjxEaRIwX1TjDlAkpbQDGypx5//URmmWCqAJN6XGquijThqXsA0AtqMSOxf90x/dsIRC4hvUFD7bAIuPw87rBafXRbZWtJaauVpNEhrU0LNxda+hKMLzWU0eMB6MRuhTUyT79flzptGfFJHo8/mzfcC0cSojm8XzDCyOzDsePAmBVZ9nrCMPHQJY9kYT/pP1D4+JyMs2nZh05rcmTeIGRMLqiECN3YeNX8k3hMo/lJZM09zmyNrmUIm/E6UIzS4xWJlFpVGZQ==",
+      "UserHandle": "QjlDMEQ="
+    }
+  },
+  {
+    "Name": "Bitwarden, PIN, Es256",
+    "CreatePasskeyRequest": {
+      "Id": "4GSdipWoRdGnGUaVM7g2RQ",
+      "UserId": "QjlDMEQ=",
+      "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDM09866pkDsmYOMY8VwjiGLRRWMb2wyhe6TIpKjH6C4Raie4mka657PqO3TV56l3Fvg3Z686gAliZhmgbmLilQ==",
+      "PublicKeyAlgorithm": -7,
+      "Transports": [
+        "internal"
+      ]
+    },
+    "VerifyPasskeyRequest": {
+      "Id": "4GSdipWoRdGnGUaVM7g2RQ",
+      "AuthenticatorData": "uzLHnR90LeW8TN7lyKDreFnTIik5+rK0UAv28GHbsWcdAAAAAA==",
+      "ClientDataJson": "{\"type\":\"webauthn.get\",\"challenge\":\"7vkOa3DrdPR42Qn9Q-tQFKaYBugeF_1geiP8FFO5bNM\",\"origin\":\"https://passkeys.demo:7011\",\"crossOrigin\":false}",
+      "Signature": "MEUCIQC/sJaV00MqkGCJ8U3U81/rsXqArHn7+pOBn89vgVbBQwIgaR3pEL75fiOwtgEu+9dvhQiCKb1NfTJcHlGgV/vaUfY=",
+      "UserHandle": "QjlDMEQ="
+    }
+  },
+  {
+    "Name": "YubiKey, PIN and Fingerprint, Es256",
+    "CreatePasskeyRequest": {
+      "Id": "3p6Um0h___4ku5MMorGIh960GE7Ds5jqy8HMHYSmxAnGPvXr0c_Bs38oR5s1IcOk",
+      "UserId": "QjlDMEQ=",
+      "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3p6Um0h///4ku5MMojw5MOzbEw8CrUfHCgBHIm+LID6Bh7HtiHU7CkOT3v+TDi+yFkC7lOP5YiGBgFo4KWNFdg==",
+      "PublicKeyAlgorithm": -7,
+      "Transports": []
+    },
+    "VerifyPasskeyRequest": {
+      "Id": "3p6Um0h___4ku5MMorGIh960GE7Ds5jqy8HMHYSmxAnGPvXr0c_Bs38oR5s1IcOk",
+      "AuthenticatorData": "uzLHnR90LeW8TN7lyKDreFnTIik5+rK0UAv28GHbsWcFAAAACA==",
+      "ClientDataJson": "{\"type\":\"webauthn.get\",\"challenge\":\"VgBfPXVwvY13h6UiinIcTrnLWD2cZeDVSLosW-i-OVc\",\"origin\":\"https://passkeys.demo:7011\",\"crossOrigin\":false}",
+      "Signature": "MEUCIQDYBt33ZrWU3wpy/9L3zPi8kKB8/PIzM1qrn73O3b9AFwIgNLExqgwoD9MkHuro0zTbKgWJwNO0vQnEsq7B4FOPjno=",
+      "UserHandle": "QjlDMEQ="
+    }
+  }
+]

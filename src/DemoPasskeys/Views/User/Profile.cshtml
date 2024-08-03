@@ -1,0 +1,16 @@
+﻿@model UserModel
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1>Profile</h1>
+
+<p>
+    Id: @Model.Id
+</p>
+<p>
+    Email: @Model.EmailAddress
+</p>
+
+<a href="~/User/Logout">Logout</a>
